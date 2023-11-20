@@ -70,6 +70,7 @@ import {
   IconBuildingStore,
   IconCategory,
   IconUser,
+  IconCopy,
 } from '@tabler/icons-react';
 import { MantineLogo } from '@mantine/ds';
 import classes from './sidebar.module.css';
@@ -119,6 +120,11 @@ export function Sidebar() {
         <a href="#" className={classes.link} onClick={(event) => event.preventDefault()}>
           <IconLogout className={classes.linkIcon} stroke={1.5} />
           <span>Logout</span>
+        </a>
+
+        <a href="#" className={classes.link} onClick={(event) => event.preventDefault()}>
+          <IconCopy className={classes.linkIcon} stroke={1.5} />
+          <span>Clone from Geusan31</span>
         </a>
       </div>
     </nav>
